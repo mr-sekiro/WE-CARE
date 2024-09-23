@@ -1,3 +1,6 @@
+const dotenv = require("dotenv");
+dotenv.config({ path: "../config" });
+
 const ApiError = require("../utils/apiError");
 
 const sendErrorForDev = (err, res) => {
